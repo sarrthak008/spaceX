@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space | X</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="bg-black relative">
+
+
+<div class="absolute top-[50%] right-0 text-white text-[40px] z-[100]"><i class="ri-arrow-right-line" style="cursor: pointer;" id="right"></i></div>
+
+<div class="absolute top-[50%] left-0 text-white text-[40px] z-[100]"><i class="ri-arrow-left-line" style="cursor: pointer;" id="left"></i></div>
+
+  <div class="h-screen w-screen overflow-hidden absolute ">
+     <div class="h-[100%] w-[130px]">
+         <div class="h-[90%] w-[130px]  absolute top-[2%] left-[1%] sm:left-[10%] text-uppercase flex flex-col text-center text-[70px] font-[900] text-white" style="line-height: 80px;" id="text-container"  id=>
+            <!-- <span>E</span>
+            <span>A</span>
+            <span>R</span>
+            <span>T</span>
+            <span>H</span>
+            <span>U</span> -->
+            <!-- <span>I</span> -->
+            
+      </div>
+      <div class="overlay"></div>
+     </div>
+
+      <div class="h-[200px] w-[200px]  absolute bottom-[45%] right-[5%] text-gray-400 text-xl" style="border-left: 0.1px solid whitesmoke; padding: 20px;" id="info-container">
+
+      </div>
+
+
+
+
+
+      <div class="main-img-container absolute h-[40%] w-full bottom-0 left-0 flex justify-center overflow-hidden">
+          <img src="./assets/Earth.png " class="h-[700px] object-cover">
+      </div>
+  </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/all.min.js"
+        integrity="sha512-fxASHhXi6WjjUR9Hr8qt2IxNW2AzyZOpoPi4+UgVU0lTFNKMQ8INkZaQ5ZED2aAldHuHNaLlaHuwQ1oGT+LHhw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>
