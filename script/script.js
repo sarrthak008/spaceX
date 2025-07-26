@@ -44,6 +44,7 @@ let prevIcon = document.getElementById("left")
 let planteImage = document.querySelector(".main-img-container img")
 let textContainer = document.querySelector("#text-container")
 let infoContainer = document.querySelector("#info-container")
+let loader = document.querySelector(".loader-body")
 
 
 let timeLine = gsap.timeline({ paused: true })
@@ -104,3 +105,10 @@ const handelCount = (ope) => {
 
 nextIcon.addEventListener("click", () => handelCount("+"))
 prevIcon.addEventListener("click", () => handelCount("-"))
+
+
+setTimeout(()=>{
+ loader.style.display = "none"
+ handelImageChnage(currentOpenPlanateCounter)
+},2000)
+
