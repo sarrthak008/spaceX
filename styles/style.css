@@ -33,3 +33,7 @@ body{
 #main-img{
     filter: drop-shadow(10px 20px 40px #404040);
 }
+
+.filter-blur{
+    backdrop-filter: blur(0.6px);
+}

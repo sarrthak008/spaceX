@@ -112,3 +112,43 @@ setTimeout(()=>{
  handelImageChnage(currentOpenPlanateCounter)
 },2000)
 
+
+
+
+
+
+// let person = {
+//     name :"sarthak",
+//     age:20,
+//     city:"pune"
+// }
+
+// let person2 = Object.create({
+//     name :"sarthak",
+//     age:20,
+//     city:"pune"
+// })
+
+// let person3 = new Object({
+//     name :"sarthak",
+//     age:20,
+//     city:"pune"
+
+// })
+
+// console.log(person.name)  // sarthak
+// console.log(person2.age) // 20
+// console.log(person3.city) // pune
+
+// let person4 = {
+//     name :"sarthak",
+//     age:20,
+//     city:"pune"
+// }
+
+// //using  .  operator 
+//  console.log(person4.name) // sarthak
+ 
+//  // using [] method
+
+//  console.log(person4["age"]) // 20
